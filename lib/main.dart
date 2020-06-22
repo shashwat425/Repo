@@ -1,5 +1,6 @@
 import 'package:doodler/bottomnavbar.dart';
 import 'package:flutter/material.dart';
+import 'package:doodler/drawer.dart';
 
 void main() => runApp(MyApp());
 
@@ -24,8 +25,9 @@ class MyHomePage extends StatelessWidget {
       appBar: AppBar(
         title: Text('Hiiiii!! Doodle'),
       ),
-      bottomNavigationBar: BottomNavBar(),
+      //bottomNavigationBar: BottomNavBar(),
       //body: Xylophone(),
+      drawer:MainDrawer(),
     );
   }
 }
