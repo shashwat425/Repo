@@ -23,7 +23,7 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Hey!! Doodle'),
+        title: Text('Heyy!! Doodle'),
       ),
       //bottomNavigationBar: BottomNavBar(),
       //body: Xylophone(),
